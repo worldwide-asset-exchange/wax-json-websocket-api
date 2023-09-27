@@ -8,7 +8,7 @@
 
 2. Login session
 
-a socket-based login session is used to establish connectivity between a Dapp and WalletConnect.
+Utilize a socket-based login session to establish a connection between a decentralized application (Dapp) and WalletConnect.
 
 
 ### Parameters
@@ -77,7 +77,7 @@ pairingTopic: '4738621948defd3bf860cd2a235f1d998ed7e136fd3c82f19f3cd6ce7f8abcc8'
 
 ### Return
 
-If they reject the request, this method rejects with a 4001 error.
+If the request is rejected, a 4001 error will be returned.
 
 Example:
 
@@ -90,7 +90,7 @@ Example:
 ```
 
 
-If the user accepts the request, this method returns a WAX account string.
+If the request is accepted, a WAX account string is returned.
 
 
 ### Example
